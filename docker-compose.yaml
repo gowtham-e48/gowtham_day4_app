@@ -1,0 +1,10 @@
+version: '3.8'
+services: 
+  gowtham_html_app1: 
+    image: gowtham_image1:day4v1
+    build: 
+      context: .
+      dockerfile: day4app.dockerfile
+    container_name: gowthamday4con1
+    ports:
+    - 1248:80
